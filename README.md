@@ -15,7 +15,7 @@ How to Make a Twitter Bot: A Full Guide for Beginners
 Note : First a full you create the app in twitter developer app https://developer.twitter.com/
        Then after you follow the below instruction.
 
-# Installation
+ *# Installation*
 
     $ mkdir tweepy-bots
     $ cd tweepy-bots
