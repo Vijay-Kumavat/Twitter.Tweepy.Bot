@@ -1,4 +1,4 @@
-# Tweepy Bot
+# #Tweepy Bot
    A Twitter bot is a type of bot software that controls a Twitter account via the Twitter API. The bot software may autonomously perform actions such as tweeting, re-tweeting, liking, following, unfollowing, or direct messaging other accounts. 
      
    The automation of Twitter accounts is governed by a set of automation rules that outline proper and improper uses of automation. Proper usage includes broadcasting helpful information, automatically generating interesting or creative content, and automatically replying to users via direct message. Improper usage includes circumventing API rate limits, violating user privacy, spamming,and sockpuppeting.
@@ -15,7 +15,7 @@ How to Make a Twitter Bot: A Full Guide for Beginners
 Note : First a full you create the app in twitter developer app https://developer.twitter.com/.
 Then after you follow the below instruction.
 
- *Installation :*
+#Installation :
 
     $ mkdir tweepy-bots
     $ cd tweepy-bots
@@ -24,12 +24,12 @@ Then after you follow the below instruction.
     $ source ./venv/bin/activate
     $ pip install tweepy
     
-*Import :*
+#Import :
       
     $ import tweepy
 
 
-*OAuth :
+#OAuth :
       
     import tweepy
 
@@ -37,7 +37,7 @@ Then after you follow the below instruction.
     auth = tweepy.OAuthHandler("CONSUMER_KEY", "CONSUMER_SECRET")
     auth.set_access_token("ACCESS_TOKEN", "ACCESS_TOKEN_SECRET")
  
-*The API Class
+#The API Class :
       
     import tweepy
 
@@ -45,15 +45,15 @@ Then after you follow the below instruction.
     auth = tweepy.OAuthHandler("CONSUMER_KEY", "CONSUMER_SECRET")
     auth.set_access_token("ACCESS_TOKEN", "ACCESS_TOKEN_SECRET")
 
-# # Create API object
+#Create API object :
 
     api = tweepy.API(auth, wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
     
-*Methods for Tweets
+#Methods for Tweets :
 
     api.update_status("Test tweet from Tweepy Python")
     
-*Other API methods on Twitter.Tweepy.Bot.py
+#Other API methods on Twitter.Tweepy.Bot.py :
 
     1. Tweets
     2. Retweets
