@@ -24,7 +24,7 @@ Note : First a full you create the app in twitter developer app https://develope
     $ source ./venv/bin/activate
     $ pip install tweepy
     
-# Import
+*# Import*
       
     $ import tweepy
 
