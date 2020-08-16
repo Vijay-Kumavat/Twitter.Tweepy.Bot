@@ -11,6 +11,9 @@ How to Make a Twitter Bot: A Full Guide for Beginners
     4. Link your Twitter app and dev environment
     5. Program the bot
     6. Test the bot
+    
+Note : First a full you create the app in twitter developer app https://developer.twitter.com/
+       Then after you follow the below instruction.
 
 # Installation
 
@@ -24,3 +27,38 @@ How to Make a Twitter Bot: A Full Guide for Beginners
 # Import
       
     $ import tweepy
+
+
+# OAuth
+      
+    import tweepy
+
+    # Authenticate to Twitter
+    auth = tweepy.OAuthHandler("CONSUMER_KEY", "CONSUMER_SECRET")
+    auth.set_access_token("ACCESS_TOKEN", "ACCESS_TOKEN_SECRET")
+ 
+# The API Class
+      
+    import tweepy
+
+    # Authenticate to Twitter
+    auth = tweepy.OAuthHandler("CONSUMER_KEY", "CONSUMER_SECRET")
+    auth.set_access_token("ACCESS_TOKEN", "ACCESS_TOKEN_SECRET")
+
+# Create API object
+
+    api = tweepy.API(auth, wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
+    
+# Methods for Tweets
+
+    api.update_status("Test tweet from Tweepy Python")
+    
+# Other API methods on Twitter.Tweepy.Bot.py
+
+    1. Tweets
+    2. Retweets
+    3. Likes
+    4. Direct messages
+    5. Favorites
+    6. Trends
+    7. Media
