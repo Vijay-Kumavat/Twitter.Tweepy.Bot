@@ -3,7 +3,7 @@
      
    The automation of Twitter accounts is governed by a set of automation rules that outline proper and improper uses of automation. Proper usage includes broadcasting helpful information, automatically generating interesting or creative content, and automatically replying to users via direct message. Improper usage includes circumventing API rate limits, violating user privacy, spamming,and sockpuppeting.
 
-How to Make a Twitter Bot: A Full Guide for Beginners
+How to Make a Twitter Bot : A Full Guide for Beginners
 
     1. Apply for a developer account
     2. Create a Twitter app
